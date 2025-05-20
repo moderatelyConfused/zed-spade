@@ -1,0 +1,15 @@
+id = "zed-spade"
+name = "Spade"
+version = "0.0.1"
+schema_version = 1
+authors = ["Your Name <you@example.com>"]
+description = "Spade suport."
+repository = "https://github.com/your-name/my-zed-extension"
+
+[grammars.spade]
+repository = "https://gitlab.com/spade-lang/tree-sitter-spade/"
+rev = "39dba69d26782bf3439c62298cd1cf6b06901e31"
+
+[language_servers.spade]
+name = "Spade LSP"
+languages = ["Spade"]
