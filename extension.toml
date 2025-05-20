@@ -2,9 +2,9 @@ id = "zed-spade"
 name = "Spade"
 version = "0.0.1"
 schema_version = 1
-authors = ["Your Name <you@example.com>"]
+authors = ["moderatelyConfused"]
 description = "Spade suport."
-repository = "https://github.com/your-name/my-zed-extension"
+repository = "https://github.com/moderatelyConfused/zed-spade"
 
 [grammars.spade]
 repository = "https://gitlab.com/spade-lang/tree-sitter-spade/"
