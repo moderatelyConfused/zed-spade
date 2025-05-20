@@ -1,6 +1,6 @@
 # Zed Spade
 
-A [Spade][https://spade-lang.org/] extension for [Zed](https://zed.dev/).
+A [Spade](https://spade-lang.org/) extension for [Zed](https://zed.dev/).
 
 Provides syntax highlighting with [tree-sitter-spade](https://gitlab.com/spade-lang/tree-sitter-spade) and use of the [spade-language-server](https://gitlab.com/spade-lang/spade).
 
