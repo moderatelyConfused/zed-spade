@@ -55,6 +55,7 @@
     "port"
     "decl"
     "mod"
+    "extern"
 ] @keyword
 
 [
