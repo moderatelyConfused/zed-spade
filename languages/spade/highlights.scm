@@ -4,7 +4,7 @@
 ((identifier) @constant
  (#lua-match? @constant "^[A-Z][A-Z%d_]*$"))
 
-(self) @variable.builtin
+(self) @variable.special
 
 (unit_definition (identifier) @function)
 
@@ -98,7 +98,7 @@
   "else"
   "if"
   "match"
-] @conditional
+] @keyword
 
 (bool_literal) @boolean
 (int_literal) @number
