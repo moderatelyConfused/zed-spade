@@ -84,7 +84,7 @@
 ((attribute
    "#" @punctuation.special
    "[" @punctuation.bracket
-    ( identifier ) @variable @function.macro
+    ( identifier ) @function.macro
     "(" @punctuation.bracket
     ((attribute_argument
         (identifier) @variable
@@ -138,4 +138,4 @@
   (line_comment)
   (doc_comment)
   (block_comment)
-] @comment @spell
+] @comment
